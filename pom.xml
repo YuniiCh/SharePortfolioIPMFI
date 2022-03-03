@@ -38,7 +38,7 @@
         <name>${project.groupId}:${project.artifactId}</name>
         <description>This library … .</description>
         <url>https://github.com/YuniiCh/SharePortfolioIPMFI</url>
-        <sonar.organization>YuniiCh</sonar.organization>
+        <sonar.organization>yuniich</sonar.organization>
         <sonar.projectKey>YuniiCh_SharePortfolioIPMFI</sonar.projectKey>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.java.libraries></sonar.java.libraries>
