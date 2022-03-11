@@ -5,6 +5,7 @@
 package tp10.metier;
 
 /**
+*This abstrct class is the base for any kind of shares
  *
  * @author perussel
  */
@@ -24,6 +25,10 @@ public abstract class Action {
     public Action(String nom) {
         this.nom = nom;
     }
+/**
+* @param j
+* @return j the given day
+*/
 
     public abstract float valeur(Jour j);
 
