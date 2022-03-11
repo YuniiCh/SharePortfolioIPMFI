@@ -26,7 +26,7 @@ public class JourTest {
         Integer numJour = 3;
         Jour j1 = new Jour(numJour);
         Integer re = j1.getNoJour();
-//Assertions.assertAll(heading, executables);
+        Assertions.assertEquals(numJour, re);
     }
 
     @BeforeAll
