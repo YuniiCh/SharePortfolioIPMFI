@@ -37,15 +37,25 @@ public class Jour {
      */
     @Override
     public boolean equals(Object o) {
-        Jour jourAComparer;
-        
-        jourAComparer = (Jour)o; // "cast" de 'o' en Jour
-        if(this.getNoJour() == jourAComparer.getNoJour()) // == car int est primitif
-            return true;
-        else 
+        if (o == null) {
             return false;
+        }
+
+        if (this.getClass() != o.getClass()) {
+            return false;
+        }
+
+        Jour jourAComparer;
+
+        jourAComparer = (Jour) o; // "cast" de 'o' en Jour
+        if (this.getNoJour() == jourAComparer.getNoJour()) // == car int est primitif
+        {
+            return true;
+        } else {
+            return false;
+        }
     }
-    
+
     @Override
     public int hashCode() {
         return this.getNoJour();
